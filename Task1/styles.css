@@ -1,0 +1,278 @@
+/* ------------------------------------Header Section------------------------------ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ebe4e4;
+    color: #130202e1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ffb6c1, #ff69b4);
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 50%;
+}
+
+.social-icons a {
+    color: rgb(197, 8, 90);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    float: left;
+    margin: auto;
+    padding: 10px;
+}
+
+.contact-info {
+    display: flex;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px;
+    float: inline;
+    padding-left: 0%;
+}
+
+.contact-button {
+    background-color: #d365ab;
+    border: 2px solid #e5e6e3;
+    color: white;
+    border-radius: 30px;
+    float: right;   
+    width: 11%;
+    height: 6%;
+}
+
+/* --------------------------Second header Section ------------------------------------------ */
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(177, 147, 147);
+    color: black;
+    padding: 10px 10%;
+    height: 50%;
+}
+
+.landing-page {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.landing-page i {
+    margin-right: 5px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.menu i.fas.fa-caret-down {
+    margin-left: 5px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.buttons a.buy-now-button {
+    background-color: #d858a7;
+    color: black;
+    border: 2px solid #e5e6e3;
+    border-radius: 25px;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.buttons i {
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+/* ------------------------------------------------ photo section -----------------------------------------------*/
+
+.bigimage{
+    width: 100vw;
+    height: 65vh;
+    position: relative;
+    background-image: url('image2.jpeg');
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* ------------------------Features Section -------------------------------------------- */
+
+.features-section {
+    background: linear-gradient(to right, #ffb6c1, #ff69b4);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+.feature {
+    text-align: center;
+    padding: 20px;
+    width: calc(30% - 10%); /* Adjusted width with a 10% margin on both sides */
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 5%; /* Margin on the left side */
+    margin-right: 5%; /* Margin on the right side */
+}
+
+.feature i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #ff69b4;
+}
+
+.feature h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.feature p {
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* ---------------------------------------------About Section ----------------------------------------------*/
+
+.about-section {
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    color: rgba(16, 16, 16, 0.861);
+    border-radius: 10px;
+}
+
+.about-content {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-text {
+    text-align: left;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.read-more-button {
+    display: inline-block;
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.about-image {
+    width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+
+/*------------------------------------Service Section--------------------------------------------------------------------- */
+
+.services-section {
+    margin: 0 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+.services-box {
+    background: linear-gradient(to right, #ff69b4, #ff0000); /* Customize the colors as needed */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    background-color: white; /* Add a white background to each service box */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.service i {
+    font-size: 40px;
+    color: #ff69b4;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+/*---------------------------------------------Footer Section --------------------------------------------*/
+.footer {
+    text-align: center;
+    background-color: #861c56;
+    color: white;
+    padding: 10px;
+}
+
+
+
